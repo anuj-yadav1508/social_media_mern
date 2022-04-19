@@ -1,0 +1,29 @@
+.conversation {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transition: background-color .4s linear;
+    cursor: pointer;
+}
+
+.conversation-image-container {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.conversation-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.conversation-name {
+    font-size: 1rem;
+    letter-spacing: .055rem;
+}
+
+.conversation:hover {
+    background-color: honeydew;
+}

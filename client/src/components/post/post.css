@@ -1,0 +1,81 @@
+.post-section {
+    width: 100%;
+    margin-top: 2rem;
+    -webkit-box-shadow: 1px 0px 9px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 0px 9px 0px rgba(0,0,0,1);
+    box-shadow: 1px 0px 9px 0px rgba(0,0,0,1);
+}
+
+.post-top {
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+}
+
+
+.post-avatar {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.post-username {
+    margin-left: 1.3rem;
+    font-weight: 400;
+    color: #444;
+}
+
+.post-image-container {
+    width: 98%;
+    height: 300px;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+
+.post-image {
+    width: 98%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.post-time {
+    margin-left: 1.5rem;
+    font-weight: 300;
+    color: #444;
+}
+
+.post-dots {
+    margin-left: 50%;
+    cursor: pointer;
+}
+
+.post-desc {
+    margin: .6rem .5rem;
+}
+
+.post-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-likes {
+    margin: 1rem 1rem ;
+    display: flex;
+    align-items: center;
+}
+
+.post-like-item {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.post-comment {
+    margin-right: 2rem;
+    cursor: pointer;
+}

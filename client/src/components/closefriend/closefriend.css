@@ -1,0 +1,10 @@
+.profile-friend-image {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.profile-friend {
+    text-align: center;
+}

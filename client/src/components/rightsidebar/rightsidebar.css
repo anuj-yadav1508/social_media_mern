@@ -1,0 +1,139 @@
+.rightsidebar-section {
+    flex: 3;
+    padding: 1rem .2rem;
+    overflow-y: scroll;
+}
+
+.rightbar-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.birthday-para {
+    margin-left: 1rem;
+}
+
+.gift-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.rightbar-add-container {
+    width: 98%;
+    height: 300px;
+    display: grid;
+    place-items: center;
+}
+
+.rightbar-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.online-friend-heading {
+    color: #444;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.online-friend-list {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+/* .online-friend-item {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0;
+    margin-left: 0;
+    position: relative;
+    margin-bottom: 1.2rem;
+}
+
+.online-friend-image {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+.green-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    z-index: 998;
+    border: 2px solid white;
+} */
+
+/* .online-friend-name {
+    margin-left: 2rem;
+    color: #444;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+} */
+
+
+
+/* styles for profile rightbar  */
+
+.profile-friend-image {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.rightsidebar-profile-userinfo {
+    margin-bottom: 1rem;
+}
+
+.profile-userinfo-item {
+    margin-bottom: 1rem;
+}
+
+.userinfo-item-span-key {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.userinfo-item-span-value {
+    color: #444;
+    margin-left: .4rem;
+}
+
+.user-profile-friend {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
+}
+
+.profile-friend {
+    text-align: center;
+}
+
+/* Follow button styles */
+.rightbar-follow-button {
+    text-align: center;
+    background: rgba(33, 101, 179, 0.959);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1rem;
+    display: flex;
+    place-items: center;
+    padding: 5px 10px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}

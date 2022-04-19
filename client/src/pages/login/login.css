@@ -1,0 +1,80 @@
+.login-section {
+    width: 100vw;
+    height: 100vh;
+    background-color: #a6d4fa88;
+    display: flex;
+}
+
+.login-left {
+    display: grid;
+    place-items: center;
+}
+
+.login-left-info {
+    width: 60%;
+    padding: 1rem;
+    margin-left: 5rem;
+}
+
+.login-left-title {
+    font-size: 3rem;
+    color: #0000e6;
+    margin-bottom: 1rem;
+}
+
+.login-right {
+    width: 40%;
+    height: 35%;
+    text-align: center;
+    -webkit-box-shadow: 1px 0px 9px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 0px 9px 0px rgba(0,0,0,1);
+    box-shadow: 1px 0px 9px 0px rgba(0,0,0,1);
+    background: white;
+    margin: 18% auto;
+    border-radius: 5px;
+}
+
+.login-form-heading {
+    display: block;
+    margin-top: 1rem ;
+    color: teal;
+}
+
+.login-form-input {
+    width: 90%;
+    margin: .3rem auto;
+    font-size: 1rem;
+    padding: .3rem .9rem;
+    color: #444;
+}
+
+.login-button {
+    width: 80%;
+    margin: 0 auto;
+    font-size: .9rem;
+    padding: .3rem .8rem;
+    background: green;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    margin-bottom: 1rem;
+}
+
+.login-right p {
+    font-size: 1rem;
+    color: #444;
+}
+
+.p-link a {
+    text-decoration: none;
+    margin-left: 1rem;
+    color: green;
+    border: 1px solid green;
+    font-size: .8rem;
+    padding: .3rem .9rem;
+    border-radius: .5rem;
+}

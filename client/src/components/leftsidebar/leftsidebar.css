@@ -1,0 +1,83 @@
+.leftsidebar-section {
+    flex: 3;
+    overflow-y: scroll;
+    height: auto;
+}
+
+.leftsidebar-section::-webkit-scrollbar {
+    width: .3rem; 
+}
+
+.leftsidebar-section::-webkit-scrollbar-track {
+    background-color: rgba(119, 119, 119, 0.274);
+}
+
+.leftsidebar-section::-webkit-scrollbar-thumb {
+    background-color: rgba(68, 68, 68, 0.808);
+    border-bottom: 500px solid rgba(119, 119, 119, 0.274);
+}
+
+.leftsidebar-center {
+    padding: 10px 10px;
+}
+
+.leftsidebar-list-item {
+    list-style-type: none;
+    margin-bottom: 1.2rem;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.leftsidebar-list-icon {
+    font-size: 1.9rem;
+    font-weight: 900;
+}
+
+.leftsidebar-list-item-span {
+    font-size: 1rem;
+    margin-left: 1.4rem;
+    color: #444;
+    font-weight: 500;
+    letter-spacing: .1rem;
+}
+
+.showmore-button {
+    width: 40%;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgba(119, 119, 119, 0.26);
+    font-weight: 500;
+    border-radius: 5px;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.leftsidebar-line {
+    margin-top: 1rem;
+    height: 3px;
+    background-color: rgba(119, 119, 119, 0.26);
+    outline: none;
+    border: none;
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.friend-list-item {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.4rem;
+}
+
+.friend-list-avatar {
+    margin-right: 2rem;
+}
+
+.friend-list-span {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
